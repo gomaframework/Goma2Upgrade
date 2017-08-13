@@ -14,12 +14,12 @@
         "php": ">=5.5.0"
     },
     "require-dev": {
-      "goma/goma-env": "dev-master",
-      "goma/goma-test-core": "dev-master",
+      "goma/goma-env": "dev-master"
     },
     "autoload": {
         "psr-4": {
-            "": "src/"
+            "": "src/",
+            "Goma\\Upgrade\\Test\\Autoload\\": "tests/autoload_test/"
         },
         "files": [
           "src/ENVConstants.php",
