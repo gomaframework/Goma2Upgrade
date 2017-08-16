@@ -1,29 +1,30 @@
 {
-    "name": "goma/goma2-upgrade",
-    "description": "Goma2 Upgrade package gives compatibility functions for old goma 2 plugins.",
-    "type": "library",
-    "authors": [
-        {
-            "name": "Goma Team",
-            "email": "team@goma-cms.org"
-        }
-    ],
-    "license": "LGPL-3.0",
-    "minimum-stability": "dev",
-    "require": {
-        "php": ">=5.5.0"
-    },
-    "require-dev": {
-      "goma/goma-env": "dev-master"
-    },
-    "autoload": {
-        "psr-4": {
-            "": "src/",
-            "Goma\\Upgrade\\Test\\Autoload\\": "tests/autoload_test/"
-        },
-        "files": [
-          "src/ENVConstants.php",
-          "src/ENVFunctions.php"
-        ]
+  "name": "goma/goma2-upgrade",
+  "description": "Goma2 Upgrade package gives compatibility functions for old goma 2 plugins.",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Goma Team",
+      "email": "team@goma-cms.org"
     }
+  ],
+  "license": "LGPL-3.0",
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.5.0"
+  },
+  "require-dev": {
+    "goma/goma-env": "dev-master",
+    "goma/goma-logging": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "": "src/",
+      "Goma\\Upgrade\\Test\\Autoload\\": "tests/autoload_test/"
+    },
+    "files": [
+      "src/ENVConstants.php",
+      "src/ENVFunctions.php"
+    ]
+  }
 }

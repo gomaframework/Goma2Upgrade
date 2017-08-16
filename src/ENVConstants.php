@@ -1,7 +1,7 @@
 <?php
 defined("IN_GOMA") or die();
 /**
- * Defines environment functions.
+ * Defines environment constants for compatibility with old plugins.
  *
  * @package goma/upgrade
  * @author Goma-Team
@@ -9,7 +9,8 @@ defined("IN_GOMA") or die();
  * @copyright Goma-Team
  */
 
-define("CURRENT_PROJECT", APPLICATION);
+define("APPLICATION", GOMA_DATADIR);
+define("CURRENT_PROJECT", GOMA_DATADIR);
 define("PHP_MAIOR_VERSION", strtok(PHP_VERSION, "."));
 define('TIME', time());
 define("NOW", time());
