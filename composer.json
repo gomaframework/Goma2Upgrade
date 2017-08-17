@@ -24,6 +24,7 @@
     "files": [
       "src/ENVConstants.php",
       "src/ENVFunctions.php",
+      "src/LogFunctions.php",
       "src/ClassAliasMap.php"
     ]
   }

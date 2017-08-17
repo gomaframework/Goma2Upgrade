@@ -1,7 +1,5 @@
 <?php
 use Goma\ENV\GomaENV;
-use Goma\Logging\ExceptionLogger;
-use Goma\Logging\Logger;
 
 defined("IN_GOMA") or die();
 /**
@@ -31,16 +29,4 @@ function isDevModeCLI() {
 
 function getMemoryLimit() {
     return GomaENV::getMemoryLimit();
-}
-
-function log_exception($exception) {
-    ExceptionLogger::logException($exception);
-}
-
-function logging($string) {
-    Logger::log($string, Logger::LOG_LEVEL_LOG);
-}
-
-function debug_log($string) {
-    Logger::log($string, Logger::LOG_LEVEL_DEBUG);
 }

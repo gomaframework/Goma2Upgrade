@@ -45,7 +45,7 @@
                 }
             ],
             "description": "Goma ENV provides some basic concepts for PHP applications: Constants about FileSystem, central storage directory, cache directory as well as functions to get infos about the current environment.",
-            "time": "2017-08-17T00:14:50+00:00"
+            "time": "2017-08-17 00:14:50"
         },
         {
             "name": "goma/goma-logging",
@@ -53,12 +53,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/gomaframework/GomaLogging.git",
-                "reference": "abe0d36acbbcf30d7c53178862ad65c0a4279f6b"
+                "reference": "c9c428332dad804b547a0238fe709558c5af79ed"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/gomaframework/GomaLogging/zipball/abe0d36acbbcf30d7c53178862ad65c0a4279f6b",
-                "reference": "abe0d36acbbcf30d7c53178862ad65c0a4279f6b",
+                "url": "https://api.github.com/repos/gomaframework/GomaLogging/zipball/c9c428332dad804b547a0238fe709558c5af79ed",
+                "reference": "c9c428332dad804b547a0238fe709558c5af79ed",
                 "shasum": ""
             },
             "require": {
@@ -86,7 +86,7 @@
                 }
             ],
             "description": "Goma logging gives some abilities for logging. It automatically adds output-logging if environment is command line.",
-            "time": "2017-08-17T00:17:48+00:00"
+            "time": "2017-08-17T17:36:56+00:00"
         },
         {
             "name": "goma/goma-test-core",
