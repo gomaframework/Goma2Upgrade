@@ -19,12 +19,12 @@
   },
   "autoload": {
     "psr-4": {
-      "": "src/",
       "Goma\\Upgrade\\Test\\Autoload\\": "tests/autoload_test/"
     },
     "files": [
       "src/ENVConstants.php",
-      "src/ENVFunctions.php"
+      "src/ENVFunctions.php",
+      "src/ClassAliasMap.php"
     ]
   }
 }
