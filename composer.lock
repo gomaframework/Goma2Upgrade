@@ -53,12 +53,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/gomaframework/GomaLogging.git",
-                "reference": "c9a9aea5dfd18426eea092bab264f95f48b740df"
+                "reference": "bd03a525c5948e342ffb603849908df44098f701"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/gomaframework/GomaLogging/zipball/c9a9aea5dfd18426eea092bab264f95f48b740df",
-                "reference": "c9a9aea5dfd18426eea092bab264f95f48b740df",
+                "url": "https://api.github.com/repos/gomaframework/GomaLogging/zipball/bd03a525c5948e342ffb603849908df44098f701",
+                "reference": "bd03a525c5948e342ffb603849908df44098f701",
                 "shasum": ""
             },
             "require": {
@@ -86,7 +86,7 @@
                 }
             ],
             "description": "Goma logging gives some abilities for logging. It automatically adds output-logging if environment is command line.",
-            "time": "2017-08-17T22:56:58+00:00"
+            "time": "2017-08-17T23:02:20+00:00"
         },
         {
             "name": "goma/goma-test-core",
