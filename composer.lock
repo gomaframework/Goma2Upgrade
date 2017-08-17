@@ -13,12 +13,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/gomaframework/Goma-ENV.git",
-                "reference": "6bade222c605b5ec7c47b51ccb2d684422a26203"
+                "reference": "084e81f0b57d094d691a7041c58b63f79b100992"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/gomaframework/Goma-ENV/zipball/6bade222c605b5ec7c47b51ccb2d684422a26203",
-                "reference": "6bade222c605b5ec7c47b51ccb2d684422a26203",
+                "url": "https://api.github.com/repos/gomaframework/Goma-ENV/zipball/084e81f0b57d094d691a7041c58b63f79b100992",
+                "reference": "084e81f0b57d094d691a7041c58b63f79b100992",
                 "shasum": ""
             },
             "require": {
@@ -45,7 +45,7 @@
                 }
             ],
             "description": "Goma ENV provides some basic concepts for PHP applications: Constants about FileSystem, central storage directory, cache directory as well as functions to get infos about the current environment.",
-            "time": "2017-08-16T16:04:35+00:00"
+            "time": "2017-08-17T00:14:50+00:00"
         },
         {
             "name": "goma/goma-logging",
@@ -53,23 +53,27 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/gomaframework/GomaLogging.git",
-                "reference": "d3de4e91948209505c7c3f3f18c4bf6dd5812c78"
+                "reference": "abe0d36acbbcf30d7c53178862ad65c0a4279f6b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/gomaframework/GomaLogging/zipball/d3de4e91948209505c7c3f3f18c4bf6dd5812c78",
-                "reference": "d3de4e91948209505c7c3f3f18c4bf6dd5812c78",
+                "url": "https://api.github.com/repos/gomaframework/GomaLogging/zipball/abe0d36acbbcf30d7c53178862ad65c0a4279f6b",
+                "reference": "abe0d36acbbcf30d7c53178862ad65c0a4279f6b",
                 "shasum": ""
             },
             "require": {
                 "goma/goma-env": "dev-master",
+                "goma/goma-test-core": "dev-master",
                 "php": ">=5.5.0"
             },
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "": "src/"
-                }
+                    "Goma\\Logging\\": "src/"
+                },
+                "files": [
+                    "src/LogENV.php"
+                ]
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -82,7 +86,7 @@
                 }
             ],
             "description": "Goma logging gives some abilities for logging. It automatically adds output-logging if environment is command line.",
-            "time": "2017-08-16T16:35:52+00:00"
+            "time": "2017-08-17T00:17:48+00:00"
         },
         {
             "name": "goma/goma-test-core",
@@ -118,7 +122,7 @@
                 }
             ],
             "description": "GomaUnitTest is a wrapper class to support PHP 5 and PHP 7 for tests. In addition it gives some helper asserts.",
-            "time": "2017-08-13T23:25:35+00:00"
+            "time": "2017-08-13 23:25:35"
         }
     ],
     "aliases": [],
