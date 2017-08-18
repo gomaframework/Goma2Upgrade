@@ -21,11 +21,11 @@
     "psr-4": {
       "Goma\\Upgrade\\Test\\Autoload\\": "tests/autoload_test/"
     },
+    "classmap": ["src/classes"],
     "files": [
       "src/ENVConstants.php",
       "src/ENVFunctions.php",
-      "src/LogFunctions.php",
-      "src/ClassAliasMap.php"
+      "src/LogFunctions.php"
     ]
   }
 }
